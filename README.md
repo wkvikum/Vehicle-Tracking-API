@@ -13,3 +13,7 @@ Requirements:
 - At least 7 days of pings per vehicle: id, vehicle_id, latitude, longitude, timestamp
 CRITICAL: Every foreign key must reference an id that actually exists in the parent list. No orphaned records.
 
+
+Added a single GET / route returning JSON {status:'ok', } in new created index.js
+
+Successfully run GET http://localhost:3000/
